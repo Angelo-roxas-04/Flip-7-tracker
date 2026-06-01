@@ -7,8 +7,9 @@
     "icon": "./assets/images/icon.png",
     "scheme": "flip7tracker",
     "userInterfaceStyle": "automatic",
-    "ios": {
-      "icon": "./assets/expo.icon"
+   "ios": {
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.yourname.flip7tracker"
     },
     "android": {
       "adaptiveIcon": {
