@@ -23,8 +23,8 @@ export type CardDef = {
   accent: 'number' | 'modifier' | 'freeze' | 'flip3' | 'secondChance';
 };
 
-const numberDefs: CardDef[] = Array.from({ length: 12 }, (_, i) => {
-  const value = i + 1;
+const numberDefs: CardDef[] = Array.from({ length: 13 }, (_, i) => {
+  const value = i;
   return {
     key: `n${value}`,
     card: { kind: 'number', value },
